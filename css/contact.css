@@ -45,6 +45,7 @@
 	margin-bottom: 20px;
 	height: 25px;
 	transition: all 0.5s ease;
+	padding: 5px;
 }
 
 .contact__name:focus {
