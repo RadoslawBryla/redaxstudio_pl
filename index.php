@@ -27,7 +27,7 @@
 		<header id = "header1">
 			<div>
 				<a class = "linkNormal" href="?action=1">
-					<img class= "logo" alt="RedaXStudio" src="images/logo.png"/>
+					<img id= "logo" alt="RedaXStudio" src="images/logo.png"/>
 				</a>
 			</div>
 			<div>
