@@ -1,0 +1,112 @@
+.contact{
+	transition: all .3s;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	opacity: 0.7;
+}
+
+.contact > div > h2 {
+	
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+#contact__validate {
+	display:flex;
+}
+
+#contact__validate > p {
+	margin-left: 10px;
+	color: red;
+	padding:0;
+}
+
+#contact__validate > button {
+	width: 45px;
+	padding: 0;
+	border: none;
+	max-height: 20px;
+}
+
+#validate_error {
+	width: 865px;
+	color: red;
+}
+
+.contact__name {
+	background-color: #f0f0f0;
+	outline: none;
+	outline-width: 0;
+	border: none;
+	width: 350px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	height: 25px;
+}
+
+.contact__name:focus {
+    outline: none;
+	background-color: #D5D5D5;
+}
+
+.contact__name:hover {
+    outline: none;
+	background-color: #D5D5D5;
+}
+
+#contact_info{
+	display:flex;
+	flex-direction: column;
+}
+
+#contact_all{
+	width: 930px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#contact__desc{
+	height: 140px;
+	width: 550px;
+}
+
+#contact__area{
+	text-align: left;
+	height: 160px;
+	width: 100%;
+	resize: none;
+}
+
+
+@media all and (max-width: 1000px) {
+	#contact__desc{
+		width: 200px;
+	}
+	.contact__name{
+		width: 150px;
+	}
+	.contact > div{
+		width: 350px;
+	}
+	#contact_all{
+		width: 420px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	#contact__desc{
+		width: 25vw;
+	}
+	.contact__name{
+		width: 20vw;
+	}
+	.contact > div{
+		width: 50vw;
+	}
+	#contact_all{
+		width: 55vw;
+	}
+}

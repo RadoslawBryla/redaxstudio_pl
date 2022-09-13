@@ -1,0 +1,196 @@
+#header1{
+	position: sticky;
+	top: 0;
+	background-color: #FFFFFF;
+	display: flex;
+	border-bottom: 2px inset;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#header1 > div > p {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#header1.sticky {
+	background-color: rgba(255,255,255,0.6)!important; 
+	backdrop-filter: blur(10px);
+}
+
+.phone {
+	width: 10px;
+}
+
+@media all and (max-width: 1600px) {
+	.phone {
+		width: 7px;	
+	}
+}
+
+.logo {
+	width: 40px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+}
+
+#menu {
+	list-style-type: none;
+}
+
+#menu > li {
+	display: inline-block;
+	margin-top: 10px;
+	padding-left: 0.2vw;
+	padding-right: 0.2vw;
+	font-style: bold;
+}
+
+#menu > li > a:hover {
+	color: #909090;
+}
+
+
+#header2 {
+	height: 50vw;
+	
+}
+
+#headerH1 {
+	padding-top: 1vw; 
+	margin-bottom: 1vw; 
+	color: #363437;
+}
+
+#lineContact {
+	height: 50vw;
+	background-color: rgba(40, 40, 40, 0.7);
+	padding-top:15vw;
+	text-align:center;
+}
+
+#lineContact > h1 {
+	margin-left: 5%;
+	width: 90%;
+}
+
+#lineContact > p {
+	color: #C9C9C9;
+	margin-left: 5%;
+	width: 90%;
+}
+
+#lineContact > hr {
+	margin-top: 0.5vw;
+	margin-bottom: 0.5vw;
+	margin-left: 30vw;
+	margin-right: 30vw;
+}
+
+#lineContact > div  > a {
+	align-items: center;
+	padding-bottom: 2vw;
+}
+
+#lineContact > div {
+	margin-top: 2vw;
+	margin-left: 44vw;
+	margin-right: 44vw;
+	margin-bottom: 2vw;
+	outline: 0.05vw solid white;
+	transition: all 0.5s;
+	padding-top: 0.1vw;
+	padding-bottom: 0.1vw;
+}
+
+@media all and (max-width: 1000px) {
+	#lineContact > div {
+		margin-left: 42vw;
+		margin-right: 42vw;
+	}
+}
+ 
+@media all and (max-width: 730px) {
+	#lineContact > div{
+		margin-left: 40vw;
+		margin-right: 40vw;
+	}
+}
+ 
+@media all and (max-width: 730px) {
+	#lineContact > div{
+		margin-left: 38vw;
+		margin-right: 38vw;
+	}
+}
+
+@media all and (max-width: 460px) {
+	#lineContact > div{
+		margin-left: 34vw;
+		margin-right: 34vw;
+	}
+}
+
+@media all and (max-width: 360px) {
+	#lineContact > div{
+		margin-left: 30vw;
+		margin-right: 30vw;
+	}
+	#lineContact {
+		padding-top:5vw;
+	}
+}	
+
+@media all and (max-width: 280px) {
+	#lineContact > div{
+		margin-left: 24vw;
+		margin-right: 24vw;
+	}
+}	
+
+@keyframes typing {
+  0% {
+    opacity: 0.2;
+  }
+  50%{
+	opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+#lineContact > div > a > p { 
+	padding:0;
+	margin:0;
+	color: #F9F9F9;
+	animation: typing 1s infinite;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+#lineContact  > div > a > p:hover { 
+	animation: none;
+}
+
+#lineContact > div:hover {
+    border-radius: 15px;
+    outline: 0;
+	background-color: #888888;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 25% 25%;
+	}
+	33% {
+		background-position: 75% 25%;
+	}
+	66% {
+		background-position: 75% 75%;
+	}
+	100% {
+		background-position: 25% 75%;
+	}
+}

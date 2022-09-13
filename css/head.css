@@ -1,0 +1,62 @@
+html
+{
+	scroll-behavior: smooth;
+	background-color: #d9d9d9;
+}
+
+* {
+	color: #363437;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	background-image: url("../images/header.png");
+	background-attachment: fixed;
+	background-size: 100vw;
+}
+
+h1{
+	padding-top: 1vw;
+	margin-left: 20vw;
+	font-size: 32px;
+	color: #F9F9F9;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+h2,h3 {
+	font-size: 18px;
+}
+
+p,span,li,ol,ul,button {
+	font-size: 13px;
+}
+
+
+@media all and (max-width: 1600px) {
+	h1 {
+		font-size: 20px;	
+	}
+	h2,h3 {
+		font-size: 13px;
+	}
+	h4 {
+		font-size: 11px;
+	}
+	p {
+		font-size: 10px;		
+	}
+}
+
+@media all and (max-width: 500px) {
+	input, textarea, button {
+		font-size: 8px;	
+	}
+}
