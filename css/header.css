@@ -19,6 +19,7 @@
 	backdrop-filter: blur(10px);
 	transform: scale(0.9);
 	border-radius: 10px;
+	border-bottom: none;
 }
 
 @media all and (max-width: 300px) {
