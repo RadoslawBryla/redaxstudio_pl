@@ -18,7 +18,8 @@ a {
 main {
 	background-image: url("../images/header.png");
 	background-attachment: fixed;
-	background-size: 100vw;
+	background-size: auto 100%;
+	background-position: center;
 }
 
 h1{
